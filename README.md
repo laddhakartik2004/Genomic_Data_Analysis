@@ -23,4 +23,4 @@ preprocessCore, broom, snpStats, sva, bladderbatch, limma, edge, genefilter, qva
 DESeq2, goseq, MatrixEQTL
 
 ## Clone my repository
-git clone https://github.com/laddhakartik2004/Genomic_Data_Analysis.git
+git clone https://github.com/laddhakartik2004/Statistical_Genomics_Analysis.git
