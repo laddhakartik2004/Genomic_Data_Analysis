@@ -10,3 +10,13 @@ Bodymap dataset- http://bowtie-bio.sourceforge.net/recount/ExpressionSets/bodyma
 Montgomery-Pickrell dataset- http://bowtie-bio.sourceforge.net/recount/ExpressionSets/montpick_eset.RData
 
 Bottomly dataset- http://bowtie-bio.sourceforge.net/recount/ExpressionSets/bottomly_eset.RData
+
+## Tools
+1. RStudio
+2. BioConductor
+3. bowtie
+
+## Packages required
+gplots, devtools, Biobase, dplyr, RSkittleBrewer, org.Hs.eg.db, Annotationdbi, dendextend,
+preprocessCore, broom, snpStats, sva, bladderbatch, limma, edge, genefilter, qvalue,
+DESeq2, goseq, MatrixEQTL
