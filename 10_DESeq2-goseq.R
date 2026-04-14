@@ -13,9 +13,9 @@ head(supportedGeneIDs())
 
 #loading system file
 temp_data =read.table(system.file("extdata","Li_sum.txt",
-                                     package="goseq"),sep="\t",
-                                     header=TRUE,
-                                     stringsAsFactors=FALSE)
+                                     package="goseq"),sep="\t", #columns separated by tabs
+                                     header=TRUE, #first row is column names
+                                     stringsAsFactors=FALSE) #prevents data(strings) from converting into factors
 
 #first column with ensembl ids labelled as 'genes'
 #removing the column and setting rownames as gene names
