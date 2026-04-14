@@ -28,11 +28,11 @@ To load system files from goseq,
 
      temp_data =read.table(system.file("extdata","Li_sum.txt",
 
-                                    package="goseq"),sep="\t",
+                                    package="goseq"),sep="\t", #columns separated by tabs
                                     
-                                    header=TRUE,
+                                    header=TRUE, #first row is column names
                                     
-                                    stringsAsFactors=FALSE)
+                                    stringsAsFactors=FALSE) #prevents data from converting into factors
 
 ### for eQTL (Expression Quantitative Trait Loci)
 Install MatrixEQTL using
