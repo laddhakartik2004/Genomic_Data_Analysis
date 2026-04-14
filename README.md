@@ -24,7 +24,7 @@ Install the packages from Bioconductor manager using
 
 Similarly, replace the package name with DESeq2 to download it. To load system files from goseq,
 
-temp_data =read.table(system.file("extdata","Li_sum.txt",
+     temp_data =read.table(system.file("extdata","Li_sum.txt",
 
                                     package="goseq"),sep="\t",
                                     
@@ -35,17 +35,17 @@ temp_data =read.table(system.file("extdata","Li_sum.txt",
 ### for eQTL (Expression Quantitative Trait Loci)
 Install MatrixEQTL using
 
-install.packages("MatrixEQTL")
+    install.packages("MatrixEQTL")
 
 Then load sample data from the base directory using
 
-base.dir = find.package("MatrixEQTL")
+     base.dir = find.package("MatrixEQTL")
 
-SNP_file_name = paste(base.dir, "/data/SNP.txt", sep="");
+     SNP_file_name = paste(base.dir, "/data/SNP.txt", sep="");
 
-expression_file_name = paste(base.dir, "/data/GE.txt", sep="")
+     expression_file_name = paste(base.dir, "/data/GE.txt", sep="")
 
-covariates_file_name = paste(base.dir, "/data/Covariates.txt", sep="")
+     covariates_file_name = paste(base.dir, "/data/Covariates.txt", sep="")
 
 
 ## Tools
