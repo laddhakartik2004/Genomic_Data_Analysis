@@ -22,9 +22,9 @@ BiocManager::install("goseq")
 Similarly, replace the package name with DESeq2 to download it. To load system files from goseq,
 
 temp_data =read.table(system.file("extdata","Li_sum.txt",
-                                     package="goseq"),sep="\t",
-                                     header=TRUE,
-                                     stringsAsFactors=FALSE)
+                                    package="goseq"),sep="\t",
+                                    header=TRUE,
+                                    stringsAsFactors=FALSE)
 
 ### for eQTL (Expression Quantitative Trait Loci)
 Install MatrixEQTL using
