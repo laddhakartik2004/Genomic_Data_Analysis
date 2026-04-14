@@ -22,7 +22,9 @@ Install the packages from Bioconductor manager using
     BiocManager::install("goseq")
 
 
-Similarly, replace the package name with DESeq2 to download it. To load system files from goseq,
+Similarly, replace the package name with DESeq2 to download it. 
+
+To load system files from goseq,
 
      temp_data =read.table(system.file("extdata","Li_sum.txt",
 
@@ -60,4 +62,4 @@ preprocessCore, broom, snpStats, sva, bladderbatch, limma, edge, genefilter, qva
 DESeq2, goseq, MatrixEQTL
 
 ## Clone my repository
-git clone https://github.com/laddhakartik2004/Statistical_Genomics_Analysis.git
+      git clone https://github.com/laddhakartik2004/Statistical_Genomics_Analysis.git
